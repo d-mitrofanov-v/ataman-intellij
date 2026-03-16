@@ -32,7 +32,7 @@ class RepeatLatestAtamanCommandActionTest : BaseTestWithConfig() {
                 "CommentByLineComment"
             )
         )
-        val popup = LeaderPopupUI(
+        val popup = LeaderPopup(
             project,
             LeaderListStep(
                 "Ataman",
